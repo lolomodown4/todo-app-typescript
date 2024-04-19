@@ -1,0 +1,93 @@
+.title{
+    margin: auto;
+    color:#EBEBEB;
+}
+
+.form{
+    display: flex;
+    margin: 5px 20px 5px 20px;
+    position: relative;
+}
+
+.input-field{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding-left:10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.single-task-edit-field{
+    font-family:  "Poppins", sans-serif;
+    width: 100%;
+}
+
+.button{
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 5px;
+    top:5px;
+    cursor: pointer;
+    background-color: #0B5351 ;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+    color: #EBEBEB;
+    transition: .3s;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.todo-list-container{
+    margin: 20px;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.single-task{
+    background-color: #E2DBBE;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: auto;
+}
+
+.todo-list-container{
+   overflow: hidden;
+}
+
+.icon-list{
+   display: flex;
+}
+
+.icon-container {
+   display: flex;
+   align-items: center;
+}
+
+.icons{
+    transition: 0.3s;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left:5px;
+}
+
+.icons:hover {
+    transform: scale(1.5);
+}
+
+
+.single-task-input-field-container{
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
